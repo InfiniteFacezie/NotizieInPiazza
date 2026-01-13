@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  /* Font nero profondo per accessibilità massima */
+  color: #000000;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Rimuoviamo il marquee e aggiungiamo un focus sullo spazio */
+section {
+  position: relative;
+}
+
+/* Effetto Wired: selezioni in rosso o nero */
+::selection {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+/* Utility per titoli Wired-style */
+.h1-impact {
+  font-size: clamp(3rem, 10vw, 8rem);
+  line-height: 0.85;
+  letter-spacing: -0.05em;
+}

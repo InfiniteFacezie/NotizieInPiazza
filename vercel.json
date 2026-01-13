@@ -1,0 +1,16 @@
+/* Sostituisci tutto il vecchio contenuto con questo */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth; /* Essenziale per la sitemap del Doc B */
+}
+
+body {
+  margin: 0;
+  background-color: #0a0c1a; /* Tema Deep Space */
+  color: #cbd5e1;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
